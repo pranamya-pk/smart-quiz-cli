@@ -1,0 +1,123 @@
+[
+  {
+    "id": "dart-variables",
+    "question": "Which keyword creates a variable whose value cannot be reassigned in Dart?",
+    "category": "Dart Basics",
+    "difficulty": "Easy",
+    "options": ["var", "final", "dynamic", "late"],
+    "correctOption": 1
+  },
+  {
+    "id": "dart-list",
+    "question": "Which collection stores an ordered group of values in Dart?",
+    "category": "Dart Basics",
+    "difficulty": "Easy",
+    "options": ["Set", "Map", "List", "Record"],
+    "correctOption": 2
+  },
+  {
+    "id": "dart-constructor",
+    "question": "What is a constructor mainly used for?",
+    "category": "OOP",
+    "difficulty": "Easy",
+    "options": [
+      "Deleting an object",
+      "Initializing a new object",
+      "Reading a JSON file",
+      "Stopping a Future"
+    ],
+    "correctOption": 1
+  },
+  {
+    "id": "dart-encapsulation",
+    "question": "In Dart, a name beginning with an underscore is private to what scope?",
+    "category": "OOP",
+    "difficulty": "Medium",
+    "options": ["The current library", "The current method", "The whole project", "The current loop"],
+    "correctOption": 0
+  },
+  {
+    "id": "dart-inheritance",
+    "question": "Which keyword is used when a class inherits from another class?",
+    "category": "OOP",
+    "difficulty": "Easy",
+    "options": ["with", "extends", "inherits", "from"],
+    "correctOption": 1
+  },
+  {
+    "id": "dart-abstract",
+    "question": "What is the main purpose of an abstract class?",
+    "category": "OOP",
+    "difficulty": "Medium",
+    "options": [
+      "To prevent all objects from being created",
+      "To define a shared contract for subclasses",
+      "To store only JSON strings",
+      "To make every method static"
+    ],
+    "correctOption": 1
+  },
+  {
+    "id": "dart-future",
+    "question": "What does a Future represent in Dart?",
+    "category": "Async/Await",
+    "difficulty": "Easy",
+    "options": [
+      "A value that may be available later",
+      "A fixed-size list",
+      "A private class",
+      "A compile-time constant"
+    ],
+    "correctOption": 0
+  },
+  {
+    "id": "dart-await",
+    "question": "Which keyword pauses an async function until a Future completes?",
+    "category": "Async/Await",
+    "difficulty": "Easy",
+    "options": ["wait", "pause", "await", "async"],
+    "correctOption": 2
+  },
+  {
+    "id": "dart-file-read",
+    "question": "Which method asynchronously reads all text from a Dart File?",
+    "category": "File I/O",
+    "difficulty": "Medium",
+    "options": ["readAsString()", "readFile()", "getText()", "openString()"],
+    "correctOption": 0
+  },
+  {
+    "id": "dart-json-decode",
+    "question": "Which function converts a JSON string into Dart values?",
+    "category": "JSON",
+    "difficulty": "Easy",
+    "options": ["jsonEncode", "jsonDecode", "parseJson", "decodeString"],
+    "correctOption": 1
+  },
+  {
+    "id": "dart-json-encode",
+    "question": "What does jsonEncode do?",
+    "category": "JSON",
+    "difficulty": "Medium",
+    "options": [
+      "Converts Dart values into a JSON string",
+      "Reads a file from disk",
+      "Checks whether an answer is correct",
+      "Creates a new class"
+    ],
+    "correctOption": 0
+  },
+  {
+    "id": "dart-polymorphism",
+    "question": "What does polymorphism allow in object-oriented programming?",
+    "category": "OOP",
+    "difficulty": "Medium",
+    "options": [
+      "One interface to work with different implementations",
+      "A file to have multiple names",
+      "A variable to change its type automatically",
+      "A question to have no answer"
+    ],
+    "correctOption": 0
+  }
+]
